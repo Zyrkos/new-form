@@ -1,15 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Poppins:300,400,500,600,700,800,900");
+/* @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Poppins:300,400,500,600,700,800,900");
 @import url("https://fonts.googleapis.com/css?family=Forum");
-@import url("https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Josefin+Slab:100,100i,300,300i,400,400i,600,600i,700,700i|Marcellus|Nanum+Myeongjo:400,700,800|Old+Standard+TT:400,400i,700|Prata|Vidaloka");
+@import url("https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Josefin+Slab:100,100i,300,300i,400,400i,600,600i,700,700i|Marcellus|Nanum+Myeongjo:400,700,800|Old+Standard+TT:400,400i,700|Prata|Vidaloka"); */
+@import url(https://fonts.googleapis.com/css?family=Oswald);
 body {
-  background: #F0F0F0;
+  background: linear-gradient(90deg, rgba(0,69,139,1) 0%, rgba(0,169,216,1) 58%);
   margin: 0;
   color: white;
+  font-family: 'Oswald', serif;
 }
 
 .subscribe-box {
   background: linear-gradient(90deg, rgba(0,69,139,1) 0%, rgba(0,169,216,1) 58%);
-  font-family: "Gothic A1", serif;
+  font-family: 'Oswald', serif;
   padding: 6em 0;
   text-align: center;
 }
@@ -17,7 +19,7 @@ body {
   margin: 0 0 0.85em 0;
   font-weight: 100;
   font-size: 30px;
-  font-family: "Marcellus", serif;
+  font-family: 'Oswald', serif;
 }
 .subscribe-box .subscribe {
   width: 100%;
